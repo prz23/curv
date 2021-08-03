@@ -38,9 +38,9 @@ zeroize = "1"
 rust-gmp-kzen = { version = "0.5", features = ["serde_support"], optional = true }
 num-bigint = { version = "0.4", features = ["serde"], optional = true }
 
-[dependencies.secp256k1]
-version = "0.20"
-features = ["serde", "rand-std"]
+#[dependencies.secp256k1]
+#version = "0.20"
+#features = ["serde", "rand-std"]
 
 [dependencies.p256]
 version = "0.5"
